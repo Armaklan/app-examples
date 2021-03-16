@@ -8,7 +8,7 @@ miro.onReady(() => {
         title: 'Hi',
         svgIcon: icon,
         onClick: async () => {
-          alert('Hi!')
+          miro.board.ui.openLeftSidebar('sidebar.html')
         },
       },
     },
